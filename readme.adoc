@@ -1,0 +1,15 @@
+= fish-normalise-unicode
+
+Exposes `normalise-unicode`, a function that rewrites files with Unicode normalisation using Node.
+
+== Installation
+
+```
+fisher add jleeothon/fish-normalise-unicode
+```
+
+== Usage
+
+```
+normalise-unicode my-file.md **/*.adoc **/*.tex
+```
