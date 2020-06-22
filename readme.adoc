@@ -4,6 +4,8 @@ Exposes `normalise-unicode`, a function that rewrites files with Unicode normali
 
 == Installation
 
+Node is necessary. A version will suffice if `WriteStream#write` and `String#normalize` are defined.
+
 ```
 fisher add jleeothon/fish-normalise-unicode
 ```
